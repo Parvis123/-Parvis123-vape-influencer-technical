@@ -1,0 +1,53 @@
+.bm-item {
+  display: inline-block;
+
+  /* sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: white;
+  transition: color 0.2s;
+
+  &:hover {
+    color: black;
+  }
+}
+
+/* styling of burger button */
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+/* color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* color/shape of close button cross */
+.bm-cross {
+  background: #0a0a0a;
+}
+
+/* general sidebar styles */
+.bm-menu {
+  background: blueviolet;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+#start-earning-now {
+  margin-top: 40px;
+  background-color: #ffa500;
+  border-radius: 25px;
+  padding: 40px;
+}
