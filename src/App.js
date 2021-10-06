@@ -1,13 +1,11 @@
 import "./App.css";
 
-import Logo from "./components/logo/Logo";
-import BurgerMenu from "./components/burger-menu/BurgerMenu";
+import Header from "./components/header/Header";
 
 function App() {
   return (
     <div className="App">
-      <Logo />
-      <BurgerMenu />
+      <Header />
     </div>
   );
 }
