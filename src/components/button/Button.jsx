@@ -11,6 +11,7 @@ const Button = styled.button`
     css`
       color: #ff6200;
       border: #ff6200 solid 2px;
+      padding: 15px;
     `}
 
   ${(props) =>

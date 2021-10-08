@@ -1,6 +1,7 @@
 import React from "react";
 
 import MessageUs from "../../assets/message_us.png";
+import Button from "../button/Button";
 
 import "./message-us-mobile.scss";
 
@@ -25,6 +26,10 @@ const MessageUsMobile = () => {
 
         <p>Start earning by showcasing your creativity.</p>
         <p>Sign up today to get access to fast and simple tasks today!</p>
+      </div>
+      <div className="button-container">
+        <Button earning>Start Earning!</Button>
+        <Button info>More info</Button>
       </div>
     </div>
   );

@@ -11,6 +11,8 @@
 
   h1 {
     color: #082340;
+    font-family: "Bebas Neue";
+    font-size: 80px;
   }
 
   .orange-colored {
@@ -28,4 +30,12 @@
 
 .small-message-container {
   color: #838383;
+  p {
+    font-family: "ClanPro", sans-serif;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
 }
