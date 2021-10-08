@@ -1,0 +1,31 @@
+.messages-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+}
+
+.large-message-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  h1 {
+    color: #082340;
+  }
+
+  .orange-colored {
+    color: #ff5e00;
+  }
+
+  img {
+    max-height: 58px;
+    max-width: 58px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.small-message-container {
+  color: #838383;
+}
