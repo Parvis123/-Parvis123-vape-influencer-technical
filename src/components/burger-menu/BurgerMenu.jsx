@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import { slide as Menu } from "react-burger-menu";
+import Button from "../button/Button";
 
 import "./burger-menu.scss";
 
@@ -27,9 +28,9 @@ class BurgerMenu extends Component {
         <a id="login" className="menu-item" href="/login">
           Log In
         </a>
-        <a id="start-earning-now" className="menu-item" href="/earning">
+        <Button id="burger-earning-button" className="menu-item" earning>
           Start Earning Now!
-        </a>
+        </Button>
       </Menu>
     );
   }

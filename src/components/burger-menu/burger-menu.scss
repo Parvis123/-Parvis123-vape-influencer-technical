@@ -15,11 +15,11 @@
 /* styling of burger button */
 
 .bm-burger-button {
-  position: fixed;
+  position: absolute;
   width: 36px;
   height: 30px;
-  right: 36px;
-  top: 36px;
+  right: 30px;
+  top: 30px;
 }
 
 /* color/shape of burger icon bars */
@@ -45,9 +45,6 @@
   font-size: 1.15em;
 }
 
-#start-earning-now {
-  margin-top: 40px;
-  background-color: #ffa500;
-  border-radius: 25px;
-  padding: 40px;
+#burger-earning-button {
+  margin: 0;
 }
