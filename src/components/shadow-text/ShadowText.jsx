@@ -5,17 +5,22 @@ const Shadowtext = ({ backgroundText, foregroundText }) => {
   const Shade = styled.h1`
     color: #f1f2f2;
     font-family: "Bebas Neue";
-    position: absolute;
-    font-size: 40px;
+    font-size: 150px;
     display: inline-block;
-  `;
+    text-align: center;
+    letter-spacing: 1.5px;
 
-  const Foreground = styled.h3`
-    color: #082340;
-    font-family: "Bebas Neue";
-    position: absolute;
-    font-size: 20px;
-    display: inline-block;
+    &:before {
+      content: "${foregroundText}";
+      left: 0;
+      color: #082340;
+      width: 100%;
+      height: 100%;
+      line-height: 3.8;
+      font-weight: 600;
+      position: absolute;
+      font-size: 50px;
+    }
   `;
 
   const Wrapper = styled.div`
@@ -27,13 +32,13 @@ const Shadowtext = ({ backgroundText, foregroundText }) => {
   const InnerWrapper = styled.div`
     text-align: center;
     position: relative;
+    width: 100%;
   `;
 
   return (
     <Wrapper>
       <InnerWrapper>
         <Shade>{backgroundText}</Shade>
-        <Foreground>{foregroundText}</Foreground>
       </InnerWrapper>
     </Wrapper>
   );
