@@ -4,14 +4,14 @@ const Button = styled.button`
   background: transparent;
   border-radius: 15px;
   margin: 0 1em;
-  padding: 0.25em 1em;
+  padding: 1em 2.5em;
 
   ${(props) =>
     props.info &&
     css`
       color: #ff6200;
       border: #ff6200 solid 2px;
-      padding: 15px;
+      font-family: "Inter", sans-serif;
     `}
 
   ${(props) =>
@@ -23,6 +23,7 @@ const Button = styled.button`
       -webkit-box-shadow: 0px 11px 4px -5px rgba(0, 0, 0, 0.07);
       box-shadow: 0px 11px 4px -5px rgba(0, 0, 0, 0.07);
       height: 40px;
+      font-family: "Inter", sans-serif;
     `};
 `;
 
