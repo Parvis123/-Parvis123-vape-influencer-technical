@@ -1,4 +1,10 @@
 .image-container {
   justify-content: center;
   display: flex;
+  max-height: 970px;
+  width: auto;
+}
+
+img {
+  max-height: 970px;
 }
