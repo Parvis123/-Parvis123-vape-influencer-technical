@@ -1,0 +1,99 @@
+.card-header {
+  font-family: "Bebas Neue";
+  letter-spacing: 1.5px;
+  font-weight: normal;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.orange-colored {
+  color: #ff5e00;
+}
+
+.card-message {
+  font-family: "ClanPro", sans-serif;
+  font-weight: normal;
+  text-transform: initial;
+}
+
+.circles-container {
+  display: flex;
+}
+
+.left-circle {
+  float: left;
+  border: solid #ff5e00 5px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  text-align: center;
+  .circle-header {
+    font-family: "Bebas Neue";
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    font-size: 29px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  .circle-message {
+    font-family: "ClanPro", sans-serif;
+    font-weight: normal;
+    text-transform: initial;
+    margin-top: 2.5px;
+  }
+}
+
+.white-right-circle {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin: 10px;
+  font-family: "Bebas Neue";
+  text-align: center;
+  color: #ff5e00;
+  h1 {
+    line-height: 75px;
+  }
+}
+.orange-right-circle-message {
+  font-family: "ClanPro", sans-serif;
+  color: #ffffff;
+  font-weight: normal;
+  background: #ff5e00;
+  text-transform: initial;
+  font-size: 7px;
+}
+
+.orange-right-circle {
+  background: #ff5e00;
+  border-radius: 50%;
+  width: 75px;
+  font-family: "Bebas Neue";
+  height: 75px;
+  margin: 10px;
+  text-align: center;
+  color: #ffffff;
+  h1 {
+    line-height: 75px;
+  }
+}
+
+.right-circles-container {
+  text-align: center;
+  justify-content: center;
+}
+
+.right-circles-message-container {
+  max-width: 100px;
+
+  p {
+    margin: 20px;
+    font-family: "ClanPro", sans-serif;
+    font-weight: normal;
+    text-transform: initial;
+  }
+}
