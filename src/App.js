@@ -1,5 +1,8 @@
 import "./App.css";
 
+import CarouselContainer from "./containers/carousel-container/CarouselContainer";
+import ContentContainer from "./containers/content-container/ContentContainer";
+
 import Header from "./components/header/Header";
 import MobileBackgroundImage from "./components/mobile-background-image/MobileBackgroundImage";
 import MessageUsMobile from "./components/message-us-mobile/MessageUsMobile";
@@ -11,13 +14,17 @@ function App() {
     <div className="App">
       <Header />
       <MobileBackgroundImage />
-      <MessageUsMobile />
-      <Shadowtext
-        foregroundText="MAKE MONEY BY COMPLETING TASKS"
-        backgroundText="DO YOU VAPE?"
-      />
-      <VapeCarousel />
-      <Shadowtext foregroundText="BY TOP BRANDS" backgroundText="TRUSTED" />
+      <ContentContainer>
+        <MessageUsMobile />
+        <Shadowtext
+          foregroundText="MAKE MONEY BY COMPLETING TASKS"
+          backgroundText="DO YOU VAPE?"
+        />
+        <CarouselContainer>
+          <VapeCarousel />
+        </CarouselContainer>
+        <Shadowtext foregroundText="BY TOP BRANDS" backgroundText="TRUSTED" />
+      </ContentContainer>
     </div>
   );
 }

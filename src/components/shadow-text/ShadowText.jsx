@@ -27,6 +27,7 @@ const Shadowtext = ({ backgroundText, foregroundText }) => {
     width: 100%;
     display: flex;
     justify-content: center;
+    overflow: hidden;
   `;
 
   const InnerWrapper = styled.div`

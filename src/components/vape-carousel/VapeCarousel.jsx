@@ -10,14 +10,17 @@ const CONTAINER_STYLE = {
   position: "relative",
   height: "50vh",
   width: "100%",
+  maxWidth: "100%",
   display: "flex",
   flex: 1,
   justifyContent: "center",
   alignItems: "middle",
   flexDirection: "column",
+  overflow: "hidden",
 };
 
 const CARD_STYLE = {
+  // @@TODO refactor these with a media query so they get smaller on mobile
   height: "400px",
   width: "400px",
   paddingTop: "30px",
