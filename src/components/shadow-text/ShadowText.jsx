@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 const Shadowtext = ({ backgroundText, foregroundText }) => {
   const Shade = styled.h1`
@@ -11,7 +11,7 @@ const Shadowtext = ({ backgroundText, foregroundText }) => {
     letter-spacing: 1.5px;
 
     &:before {
-      content: "${foregroundText}";
+      content: "${!!foregroundText && foregroundText}";
       left: 0;
       color: #082340;
       width: 100%;
@@ -38,7 +38,7 @@ const Shadowtext = ({ backgroundText, foregroundText }) => {
   return (
     <Wrapper>
       <InnerWrapper>
-        <Shade>{backgroundText}</Shade>
+        <Shade>{!!backgroundText && backgroundText}</Shade>
       </InnerWrapper>
     </Wrapper>
   );

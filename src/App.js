@@ -17,6 +17,7 @@ function App() {
         backgroundText="DO YOU VAPE?"
       />
       <VapeCarousel />
+      <Shadowtext foregroundText="BY TOP BRANDS" backgroundText="TRUSTED" />
     </div>
   );
 }
