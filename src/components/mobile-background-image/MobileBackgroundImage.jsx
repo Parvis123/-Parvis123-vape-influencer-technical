@@ -6,7 +6,7 @@ import "./mobile-background-image.scss";
 const MobileBackgroundImage = () => {
   return (
     <div className="image-container">
-      <img src={mobile} alt="vaper" className="image" />
+      <img src={mobile} alt="vaper" />
     </div>
   );
 };
