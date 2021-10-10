@@ -22,7 +22,7 @@ const Button = styled.button`
       border: none;
       -webkit-box-shadow: 0px 11px 4px -5px rgba(0, 0, 0, 0.07);
       box-shadow: 0px 11px 4px -5px rgba(0, 0, 0, 0.07);
-      height: 40px;
+      height: 45px;
       font-family: "Inter", sans-serif;
     `};
 `;
