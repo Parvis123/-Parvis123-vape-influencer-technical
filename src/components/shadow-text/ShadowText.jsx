@@ -5,7 +5,7 @@ const Shadowtext = ({ backgroundText, foregroundText }) => {
   const Shade = styled.h1`
     color: #f1f2f2;
     font-family: "Bebas Neue";
-    font-size: 150px;
+    font-size: 105px;
     display: inline-block;
     text-align: center;
     letter-spacing: 1.5px;
@@ -19,7 +19,7 @@ const Shadowtext = ({ backgroundText, foregroundText }) => {
       line-height: 3.8;
       font-weight: 600;
       position: absolute;
-      font-size: 50px;
+      font-size: 35px;
     }
   `;
 
