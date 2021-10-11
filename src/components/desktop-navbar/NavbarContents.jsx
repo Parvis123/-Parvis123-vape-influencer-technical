@@ -14,7 +14,7 @@ const Ul = styled.ul`
   }
   a {
     text-decoration: none;
-    color: white;
+    color: orange;
   }
   @media (max-width: 745px) {
     display: none;
