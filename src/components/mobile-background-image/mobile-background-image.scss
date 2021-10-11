@@ -5,6 +5,10 @@
   height: auto;
   max-width: 100vh;
 
+  @media only screen and (min-width: 746px) {
+    display: none;
+  }
+
   img {
     max-width: 100%;
   }

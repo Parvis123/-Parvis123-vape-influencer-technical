@@ -15,6 +15,9 @@
 /* styling of burger button */
 
 .bm-burger-button {
+  @media only screen and (min-width: 746px) {
+    display: none;
+  }
   position: absolute;
   width: 36px;
   height: 30px;

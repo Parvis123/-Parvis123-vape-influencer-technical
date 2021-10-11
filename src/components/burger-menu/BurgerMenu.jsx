@@ -13,22 +13,22 @@ class BurgerMenu extends Component {
   render() {
     return (
       <Menu right>
-        <a id="about" className="menu-item" href="/about">
+        <a className="menu-item" href="/about">
           About Us
         </a>
-        <a id="creators" className="menu-item" href="/creators">
+        <a className="menu-item" href="/creators">
           Creators
         </a>
-        <a id="how-it-works" className="menu-item" href="/how-it-works">
+        <a className="menu-item" href="/how-it-works">
           How It Works
         </a>
-        <a id="learn-more" className="menu-item" href="learn">
+        <a className="menu-item" href="learn">
           Learn More
         </a>
-        <a id="login" className="menu-item" href="/login">
+        <a className="menu-item" href="/login">
           Log In
         </a>
-        <Button id="burger-earning-button" className="menu-item" earning>
+        <Button className="menu-item" earning>
           Start Earning Now!
         </Button>
       </Menu>

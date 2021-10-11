@@ -24,6 +24,7 @@ const Button = styled.button`
       box-shadow: 0px 11px 4px -5px rgba(0, 0, 0, 0.07);
       height: 45px;
       font-family: "Inter", sans-serif;
+      padding-bottom: 20px;
     `};
 `;
 
