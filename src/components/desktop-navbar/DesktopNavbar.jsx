@@ -1,14 +1,11 @@
 import React from "react";
-import styled from "styled-components";
 import NavbarContents from "./NavbarContents";
-
-const Nav = styled.nav``;
 
 const DesktopNavbar = () => {
   return (
-    <Nav>
+    <div>
       <NavbarContents />
-    </Nav>
+    </div>
   );
 };
 

@@ -2,16 +2,21 @@ import "./App.css";
 
 import CarouselContainer from "./containers/carousel-container/CarouselContainer";
 import ContentContainer from "./containers/content-container/ContentContainer";
+import DesktopHeaderContainer from "./containers/desktop-header-container/DesktopHeaderContainer";
 
 import Header from "./components/header/Header";
 import MobileBackgroundImage from "./components/mobile-background-image/MobileBackgroundImage";
 import MessageUsMobile from "./components/message-us-mobile/MessageUsMobile";
 import Shadowtext from "./components/shadow-text/ShadowText";
 import VapeCarousel from "./components/vape-carousel/VapeCarousel";
+import DesktopHeader from "./components/desktop-header/DesktopHeader";
 
 function App() {
   return (
     <div className="App">
+      <DesktopHeaderContainer>
+        <DesktopHeader />
+      </DesktopHeaderContainer>
       <Header />
       <MobileBackgroundImage />
       <ContentContainer>

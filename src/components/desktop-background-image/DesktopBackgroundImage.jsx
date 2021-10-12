@@ -1,27 +1,26 @@
 import React from "react";
-import desktop from "../../assets/Header_Home_Desktop.jpg";
-
 import styled from "styled-components";
+
+import desktop from "../../assets/Header_Home_Desktop.jpg";
 
 const DesktopBackgroundImage = () => {
   const ImageWrapper = styled.div`
-    width: 100%;
+    width: 100vw;
+    min-height: 100vh;
     height: auto;
-    backgroundimage: url(${desktop});
+    background-image: url(${desktop});
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    border: solid 1px red;
+    z-index: -1;
 
     @media only screen and (max-width: 745px) {
       display: none;
     }
-
-    img {
-      max-width: 100%;
-    }
   `;
-  return (
-    <ImageWrapper>
-      <img src={desktop} alt="vaper for desktop" />
-    </ImageWrapper>
-  );
+  return <ImageWrapper></ImageWrapper>;
 };
 
 export default DesktopBackgroundImage;
