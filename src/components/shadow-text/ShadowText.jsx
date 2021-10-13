@@ -1,7 +1,10 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
-const Shadowtext = ({ backgroundText, foregroundText }) => {
+import MessageUs from "../../assets/message_us.png";
+
+const Shadowtext = ({ backgroundText, foregroundText, mail }) => {
+  console.log(mail);
   const Shade = styled.h1`
     color: #f1f2f2;
     font-family: "Bebas Neue";
@@ -20,6 +23,14 @@ const Shadowtext = ({ backgroundText, foregroundText }) => {
       font-weight: 600;
       position: absolute;
       font-size: 35px;
+
+      @media only screen and (min-width: 746px) {
+        font-size: 61.25px;
+      }
+    }
+
+    @media only screen and (min-width: 746px) {
+      font-size: 183.75px;
     }
   `;
 
@@ -32,14 +43,22 @@ const Shadowtext = ({ backgroundText, foregroundText }) => {
 
   const InnerWrapper = styled.div`
     text-align: center;
-    position: relative;
     width: 100%;
+  `;
+
+  const MessageUsWrapper = styled.img`
+    max-width: 58px;
+    max-height: 58px;
+    position: relative;
+    right: -100px;
+    top: -30px;
   `;
 
   return (
     <Wrapper>
       <InnerWrapper>
         <Shade>{!!backgroundText && backgroundText}</Shade>
+        {mail && <MessageUsWrapper src={MessageUs} />}
       </InnerWrapper>
     </Wrapper>
   );

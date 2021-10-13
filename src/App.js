@@ -26,6 +26,7 @@ function App() {
         <Shadowtext
           foregroundText="MAKE MONEY BY COMPLETING TASKS"
           backgroundText="DO YOU VAPE?"
+          mail
         />
         <CarouselContainer>
           <VapeCarousel />

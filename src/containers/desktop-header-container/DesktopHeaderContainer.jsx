@@ -7,6 +7,8 @@ const DesktopHeaderContainer = styled.div`
     display: none;
   }
 
+  padding-bottom: 175px;
+
   backgroundimage: url(${desktop});
 `;
 

@@ -13,7 +13,6 @@ const DesktopBackgroundImage = () => {
     background-size: cover;
     position: absolute;
     display: flex;
-    border: solid 1px red;
     z-index: -1;
 
     @media only screen and (max-width: 745px) {
