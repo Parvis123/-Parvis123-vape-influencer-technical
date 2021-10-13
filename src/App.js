@@ -10,12 +10,14 @@ import MessageUsMobile from "./components/message-us-mobile/MessageUsMobile";
 import Shadowtext from "./components/shadow-text/ShadowText";
 import VapeCarousel from "./components/vape-carousel/VapeCarousel";
 import DesktopHeader from "./components/desktop-header/DesktopHeader";
+import MessageUsDesktop from "./components/message-us-desktop/MessageUsDesktop";
 
 function App() {
   return (
     <div className="App">
       <DesktopHeaderContainer>
         <DesktopHeader />
+        <MessageUsDesktop />
       </DesktopHeaderContainer>
       <Header />
       <MobileBackgroundImage />
