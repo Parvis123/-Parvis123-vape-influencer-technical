@@ -52,6 +52,10 @@ const Shadowtext = ({ backgroundText, foregroundText, mail }) => {
     position: relative;
     right: -100px;
     top: -30px;
+
+    @media only screen and (max-width: 746px) {
+      visibility: hidden;
+    }
   `;
 
   return (

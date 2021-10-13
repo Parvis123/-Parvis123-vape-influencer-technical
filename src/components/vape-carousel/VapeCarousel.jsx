@@ -1,39 +1,38 @@
 import React, { useRef, useState } from "react";
+import styled from "styled-components";
+
 import ReactCardCarousel from "react-card-carousel";
 import CardContents from "./CardContents";
 import CarouselControls from "./CarouselControls";
 import { mockData } from "./mockData";
 
-import "./vape-carousel.scss";
+const ContainerStyle = styled.div`
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: middle;
+  flex-direction: column;
+  overflow: hidden;
+`;
 
-const CONTAINER_STYLE = {
-  position: "relative",
-  height: "50vh",
-  width: "100%",
-  maxWidth: "100%",
-  display: "flex",
-  flex: 1,
-  justifyContent: "center",
-  alignItems: "middle",
-  flexDirection: "column",
-  overflow: "hidden",
-};
-
-const CARD_STYLE = {
-  // @@TODO refactor these with a media query so they get smaller on mobile
-  height: "400px",
-  width: "400px",
-  paddingTop: "30px",
-  textAlign: "center",
-  background: "#07223F",
-  color: "white",
-  fontSize: "12px",
-  textTransform: "uppercase",
-  borderRadius: "10px",
-  boxSizing: "border-box",
-  webkitBoxShadow: "0px 11px 8px -5px #A7A7A7",
-  boxShadow: "0px 11px 8px -5px #A7A7A7",
-};
+const CardStyle = styled.div`
+  height: 400px;
+  width: 400px;
+  padding-top: 30px;
+  text-align: center;
+  background: #07223f;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  box-sizing: border-box;
+  webkit-box-shadow: 0px 11px 8px -5px #a7a7a7;
+  box-shadow: 0px 11px 8px -5px #a7a7a7;
+`;
 
 const VapeCarousel = () => {
   const refContainer = useRef(null);
@@ -48,18 +47,18 @@ const VapeCarousel = () => {
   };
 
   return (
-    <div style={CONTAINER_STYLE}>
+    <ContainerStyle>
       <ReactCardCarousel ref={refContainer} afterChange={() => indexUpdated()}>
         {mockData.map((card) => {
           return (
-            <div style={CARD_STYLE}>
+            <CardStyle>
               <CardContents {...card} />
-            </div>
+            </CardStyle>
           );
         })}
       </ReactCardCarousel>
       <CarouselControls items={mockData} currentIndex={currentIndex} />
-    </div>
+    </ContainerStyle>
   );
 };
 export default VapeCarousel;
