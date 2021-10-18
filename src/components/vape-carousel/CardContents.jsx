@@ -18,6 +18,12 @@ const CardContents = ({
     font-size: 40px;
     margin-top: 0px;
     margin-bottom: 10px;
+
+    @media only screen and (min-width: 746px) {
+      letter-spacing: 3px;
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
   `;
 
   const OrangeColored = styled.span`
@@ -28,6 +34,11 @@ const CardContents = ({
     font-family: "ClanPro", sans-serif;
     font-weight: normal;
     text-transform: initial;
+
+    @media only screen and (min-width: 746px) {
+      font-size: 17.5px;
+      margin: 30px;
+    }
   `;
 
   const CirclesContainer = styled.div`
@@ -42,6 +53,14 @@ const CardContents = ({
     height: 150px;
     margin: 10px;
     text-align: center;
+
+    @media only screen and (min-width: 746px) {
+      border: solid #ff5e00 10px;
+      width: 300px;
+      height: 300px;
+      margin: 20px;
+      text-align: center;
+    }
   `;
 
   const CircleHeader = styled.h1`
@@ -52,6 +71,12 @@ const CardContents = ({
     margin-bottom: 0px;
     margin-top: 10px;
     display: inline-block;
+
+    @media only screen and (min-width: 746px) {
+      letter-spacing: 1px;
+      font-size: 72.5px;
+      margin-top: 20px;
+    }
   `;
 
   const CircleMessage = styled.h3`
@@ -59,6 +84,10 @@ const CardContents = ({
     font-weight: normal;
     text-transform: initial;
     margin-top: 2.5px;
+
+    @media only screen and (min-width: 746px) {
+      margin-top: 5px;
+    }
   `;
 
   const RightCirclesContainer = styled.div`
@@ -75,10 +104,20 @@ const CardContents = ({
     font-family: "Bebas Neue";
     text-align: center;
     color: #ff5e00;
+
+    @media only screen and (min-width: 746px) {
+      width: 150px;
+      height: 150px;
+      margin: 20px;
+    }
   `;
 
   const WhiteRightCircleWrapper = styled.h1`
     line-height: 75px;
+    @media only screen and (min-width: 746px) {
+      line-height: 150px;
+      font-size: 50px;
+    }
   `;
 
   const OrangeRightCircle = styled.div`
@@ -90,14 +129,28 @@ const CardContents = ({
     margin: 10px;
     text-align: center;
     color: #ffffff;
+
+    @media only screen and (min-width: 746px) {
+      width: 150px;
+      height: 150px;
+      margin: 20px;
+    }
   `;
 
   const OrangeRightCircleH1 = styled.h1`
     line-height: 75px;
+    @media only screen and (min-width: 746px) {
+      line-height: 150px;
+      font-size: 50px;
+    }
   `;
 
   const RightCirclesMessageContainer = styled.div`
     max-width: 100px;
+
+    @media only screen and (min-width: 746px) {
+      max-width: 200px;
+    }
   `;
 
   const RightCirclesParagraphText = styled.p`
@@ -105,6 +158,12 @@ const CardContents = ({
     font-family: "ClanPro", sans-serif;
     font-weight: normal;
     text-transform: initial;
+
+    @media only screen and (min-width: 746px) {
+      margin: 50px;
+      font-size: 18px;
+      padding-bottom: 60px;
+    }
   `;
 
   return (
@@ -117,14 +176,14 @@ const CardContents = ({
               return (
                 <>
                   {text}
-                  <OrangeColored className="orange-colored">!</OrangeColored>
+                  <OrangeColored>!</OrangeColored>
                 </>
               );
             }
             return (
               <>
                 {text}
-                <span className="orange-colored">. </span>
+                <OrangeColored>. </OrangeColored>
               </>
             );
           })}
@@ -150,19 +209,19 @@ const CardContents = ({
           </OrangeRightCircle>
         </RightCirclesContainer>
         <RightCirclesMessageContainer>
-          <div>
+          <>
             <RightCirclesParagraphText>
               {" "}
               {!!firstAside && firstAside}
             </RightCirclesParagraphText>
-          </div>
+          </>
 
-          <div>
+          <>
             <RightCirclesParagraphText>
               {" "}
               {!!secondAside && secondAside}
             </RightCirclesParagraphText>
-          </div>
+          </>
         </RightCirclesMessageContainer>
       </CirclesContainer>
     </>

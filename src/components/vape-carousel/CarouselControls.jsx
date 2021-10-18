@@ -17,6 +17,12 @@ const ControlItem = styled.div`
   height: 5px;
   width: 5px;
   border: 1px solid #1a334e;
+
+  @media only screen and (min-width: 746px) {
+    height: 7px;
+    width: 7px;
+    border: 3px solid #1a334e;
+  }
 `;
 
 const selectedVariation = css`

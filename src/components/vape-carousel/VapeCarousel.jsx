@@ -17,6 +17,10 @@ const ContainerStyle = styled.div`
   align-items: middle;
   flex-direction: column;
   overflow: hidden;
+
+  @media only screen and (min-width: 746px) {
+    height: 75vh;
+  }
 `;
 
 const CardStyle = styled.div`
@@ -32,11 +36,15 @@ const CardStyle = styled.div`
   box-sizing: border-box;
   webkit-box-shadow: 0px 11px 8px -5px #a7a7a7;
   box-shadow: 0px 11px 8px -5px #a7a7a7;
+
+  @media only screen and (min-width: 746px) {
+    height: 600px;
+    width: 800px;
+  }
 `;
 
 const VapeCarousel = () => {
   const refContainer = useRef(null);
-  // @@TODO refactor to styled components
 
   const [currentIndex, setCurrentIndex] = useState(1);
 
