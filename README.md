@@ -8,6 +8,8 @@ To access the project:
 2. Run yarn start
 3. Visit [http://localhost:3000](http://localhost:3000)
 
+Or Visit [https://parvis123.github.io/-Parvis123-vape-influencer-technical](https://parvis123.github.io/-Parvis123-vape-influencer-technical)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
