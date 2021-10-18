@@ -1,3 +1,13 @@
+This was a technical challenge that required me to create two versions of a website snapshot using a mobile-first approach.
+
+The application was built entirely using ReactJS.
+
+To access the project:
+
+1. Install yarn
+2. Run yarn start
+3. Visit [http://localhost:3000](http://localhost:3000)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
