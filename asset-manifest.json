@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/-Parvis123-vape-influencer-technical/static/css/main.75e0c4a4.chunk.css",
+    "main.js": "/-Parvis123-vape-influencer-technical/static/js/main.fea91f0d.chunk.js",
+    "main.js.map": "/-Parvis123-vape-influencer-technical/static/js/main.fea91f0d.chunk.js.map",
+    "runtime-main.js": "/-Parvis123-vape-influencer-technical/static/js/runtime-main.b4c1976f.js",
+    "runtime-main.js.map": "/-Parvis123-vape-influencer-technical/static/js/runtime-main.b4c1976f.js.map",
+    "static/js/2.5d81a49a.chunk.js": "/-Parvis123-vape-influencer-technical/static/js/2.5d81a49a.chunk.js",
+    "static/js/2.5d81a49a.chunk.js.map": "/-Parvis123-vape-influencer-technical/static/js/2.5d81a49a.chunk.js.map",
+    "static/js/3.f6d9ec64.chunk.js": "/-Parvis123-vape-influencer-technical/static/js/3.f6d9ec64.chunk.js",
+    "static/js/3.f6d9ec64.chunk.js.map": "/-Parvis123-vape-influencer-technical/static/js/3.f6d9ec64.chunk.js.map",
+    "index.html": "/-Parvis123-vape-influencer-technical/index.html",
+    "static/css/main.75e0c4a4.chunk.css.map": "/-Parvis123-vape-influencer-technical/static/css/main.75e0c4a4.chunk.css.map",
+    "static/js/2.5d81a49a.chunk.js.LICENSE.txt": "/-Parvis123-vape-influencer-technical/static/js/2.5d81a49a.chunk.js.LICENSE.txt",
+    "static/media/Header_Home_Desktop.63b430a5.jpg": "/-Parvis123-vape-influencer-technical/static/media/Header_Home_Desktop.63b430a5.jpg",
+    "static/media/Header_Home_Mobile.91971917.jpg": "/-Parvis123-vape-influencer-technical/static/media/Header_Home_Mobile.91971917.jpg",
+    "static/media/Logo.c6128b7a.svg": "/-Parvis123-vape-influencer-technical/static/media/Logo.c6128b7a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4c1976f.js",
+    "static/js/2.5d81a49a.chunk.js",
+    "static/css/main.75e0c4a4.chunk.css",
+    "static/js/main.fea91f0d.chunk.js"
+  ]
+}
